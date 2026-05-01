@@ -95,7 +95,7 @@ int64_t HTTPClient::get_file_size(const std::string& url) {
     }
     
     double filesize = 0.0;
-    curl_easy_getinfo(curl, CURLINFO_CONTENT_LENGTH_DOWNLOAD, &filesize);
+    curl_easy_getinfo(curl, CURLINFO_CONTENT_LENGTH_DOWNLOAD_T, &filesize);
     curl_easy_setopt(curl, CURLOPT_NOBODY, 0L);
     
     return (int64_t)filesize;
