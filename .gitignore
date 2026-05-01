@@ -1,0 +1,41 @@
+# Build directories
+build/
+cmake-build-*/
+.vscode/
+.idea/
+
+# Object files
+*.o
+*.obj
+*.so
+*.so.*
+*.dylib
+*.dll
+*.a
+*.lib
+
+# VEB extension package
+*.veb
+
+# CMake
+CMakeLists.txt.user
+CMakeCache.txt
+CMakeFiles/
+CMakeUserPresets.json
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Test output
+test-output/
+*.log

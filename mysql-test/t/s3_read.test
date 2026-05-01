@@ -1,0 +1,8 @@
+-- Test S3 file operations
+-- Note: These tests require S3 credentials and access
+
+-- Test list_files function for S3
+SELECT list_files('s3://mybucket/myprefix/');
+
+-- Test read_file with S3 URL
+SELECT read_file('s3://mybucket/myprefix/file.txt');

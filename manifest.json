@@ -1,0 +1,7 @@
+{
+  "name": "vsql_httpfs",
+  "version": "1.0.0",
+  "description": "HTTP file system extension for VillageSQL - read/write remote files over HTTP/HTTPS and S3",
+  "author": "maxdemarzi",
+  "license": "GPL-2.0"
+}

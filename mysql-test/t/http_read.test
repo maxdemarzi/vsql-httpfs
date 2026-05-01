@@ -1,0 +1,11 @@
+-- Test HTTP file reading functionality
+-- Note: These tests assume network connectivity
+
+-- Test read_file function
+SELECT read_file('https://example.com/test.txt');
+
+-- Test get_file_size function
+SELECT get_file_size('https://example.com/test.txt');
+
+-- Test http_get function
+SELECT http_get('https://example.com/api/endpoint');
